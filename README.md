@@ -5,11 +5,15 @@ Versão do Rails: 4.2.5.1
 Versão do Ruby: 2.2.4
 
 Gems adicionadas no .gemfile:
+
 -Bootstrap
 gem 'twitter-bootstrap-rails'
 
 -Devise
 gem 'devise'
+
+-RSpec (testes)
+gem 'rspec-rails'
 
 Não foi utilizado o padrão (minitest) do Rails, em vez disso utilizei o RSPEC, com uma simples demonstração (model test)
 
