@@ -18,6 +18,10 @@ gem 'rspec-rails'
 Não foi utilizado o padrão (minitest) do Rails, em vez disso utilizei o RSPEC, com uma simples demonstração (model test)
 Para usar os testes com RSPEC basta utilizar "rake spec"
 
+Fui forçado a utilizar SQLite (PC da xuxa)
+
+Não é necessário rodar "rake db:seed": o seed existente, para a tabela tasktypes, é apenas de demonstração (a tabela já está populada)
+
 O "U | D" na coluna "Actions?", ao visualizar o time é apensa uma sugestão de posíveis ações para as respectivas tasks e significam Update e delete, respectivamente.
 
 Em alguns pontos foi demonstrado maneiras diferentes dde utilizar aciverecord.
